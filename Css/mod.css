@@ -1,0 +1,72 @@
+.modal {
+    --primary--color: rgb(14, 17, 22);
+    --secondary--color: rgb(2, 157, 91);
+    --text--color: white;
+    --shadow: 5px 2px 2px rgba(255, 255, 255, 0.2),
+        -1px -1px 2px rgba(255, 255, 255, 0.2);
+    color: var(--text--color);
+    font-weight: 300;
+    position: fixed;
+    margin: 5vh 15vw 10vh 15vw;
+    width: 60vw;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    box-shadow: var(--shadow);
+    padding-left: 5%;
+background-color: var(--secondary--color);
+    overflow-y: scroll;
+    font-family: poppins;
+    transition: all 1.5s;
+    z-index: 1;
+    font-weight: 600;
+}
+.m{
+    text-decoration: underline;
+    text-decoration-thickness: 0.2em;
+}
+.cancel {
+    transform: translate(80%, 10%);
+    cursor: pointer;
+}
+
+.canc {
+    width: 25px;
+    height: 25px;
+}
+
+.modalHide {
+    height: 0;
+    width: 0;
+
+    opacity: 0;
+    padding-left: 5%;
+}
+
+#W {
+    width: 25px;
+    height: 25px;
+    margin: 2%;
+}
+
+#T {
+    width: 25px;
+    height: 25px;
+    margin: 2%;
+
+}
+
+.cont {
+    width: 21px;
+    height: 21px;
+
+}
+.fireClass{
+
+    filter: opacity(0.05);
+}
+@media (max-width:700px){
+    .modal{
+        top:22%;
+    }
+}

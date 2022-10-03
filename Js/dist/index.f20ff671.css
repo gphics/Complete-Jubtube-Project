@@ -1,0 +1,92 @@
+.result--search--container {
+  width: 95%;
+  height: max-content;
+  --primary--color: #0e1116;
+  --secondary--color: #029d5b;
+  --text--color: white;
+  --shadow: 5px 2px 2px #fff3, -1px -1px 2px #fff3;
+  background-color: var(--primary--color);
+  flex-flow: wrap;
+  flex: auto;
+  margin: 3%;
+  font-family: Roboto;
+  font-weight: 600;
+  display: flex;
+}
+
+.each-result {
+  width: 19%;
+  height: 30%;
+  background-color: var(--primary--color);
+  box-shadow: var(--shadow);
+  -o-transition: all 1s;
+  -ms-border-radius: 3%;
+  -o-border-radius: 3%;
+  border-radius: 3%;
+  flex: auto;
+  margin: 1%;
+  transition: all 1s;
+  overflow: hidden;
+}
+
+.each-result:hover {
+  transform: scale(1.02);
+}
+
+.internal {
+  flex-direction: column;
+  margin: 40% 5% 0;
+  display: flex;
+}
+
+.intro {
+  flex-direction: 1 1 auto;
+  margin: 0;
+  padding: 0;
+}
+
+@media (max-width: 800px) {
+  .each-result {
+    width: 40%;
+    height: 20%;
+  }
+
+  .internal {
+    margin: 40% 5% 0;
+  }
+}
+
+@media (max-width: 430px) {
+  .each-result {
+    width: 40%;
+    height: 15%;
+    margin: 5%;
+  }
+
+  .internal {
+    margin: 45% 5% 0;
+  }
+}
+
+.spinner {
+  width: 90%;
+  height: 10vh;
+  margin: 5%;
+  transform: translate(45%);
+}
+
+.spin {
+  width: 10%;
+  height: 10em;
+  filter: invert(67%) sepia(50%) brightness(100) saturate(100) contrast(100);
+  background-color: #0000;
+  animation: 1s ease-in infinite rot;
+}
+
+@keyframes rot {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/*# sourceMappingURL=index.f20ff671.css.map */

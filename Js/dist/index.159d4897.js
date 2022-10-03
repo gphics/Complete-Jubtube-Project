@@ -1,0 +1,2 @@
+const e=document.querySelector("#linkA"),o=document.querySelector("#linkB"),t=document.querySelector("#linkC"),c=document.querySelector("#linkD"),n=document.querySelector(".upcoming--view"),r=document.querySelector(".now-playing"),u=document.querySelector(".top-rated"),l=document.querySelector(".most-popular");function i(e,o){e.addEventListener("click",(e=>{e.preventDefault(),o.scrollIntoView({behavior:"smooth"})}))}i(e,n),i(o,r),i(t,u),i(c,l);
+//# sourceMappingURL=index.159d4897.js.map

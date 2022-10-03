@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jubtube</title>
+    <!-- 
+    CSS files -->
+    <link rel="stylesheet" href="../Css/nav-style.css">
+    <link rel="stylesheet" href="../Css/section1.css">
+    <link rel="stylesheet" href="../Css/result.css">
+    <link rel="stylesheet" href="../Css/target.css">
+<link rel="stylesheet" href="../Css/mod.css">
+    <link rel="shortcut icon" href="../Img/SVG/Jubtube logoldpi.svg" type="image/x-icon">
+
+
+    <!-- Javascript files -->
+
+    <script type="module" defer src="nav.js"></script>
+    <script type="module" defer src="controller.js"></script>
+    <script type="module" defer src="section1.js"></script>
+    <script type="module" defer src="modal.js"></script>
+    <!-- <script type="module" defer src="article.js"></script> -->
+</head>
+
+<body>
+    <header class="main--header hide-nav ">
+        <div class="side--bar main"> </a>
+
+            <a href="#"> <img src="../Img/SVG/Homeldpi.svg" alt="Popular" class="nav--img home"></a>
+            <a href="#"> <img src="../Img/SVG/Popularldpi.svg" alt="Popular" class="nav--img popular"></a>
+            <a href="#"> <img src="../Img/SVG/Latestldpi.svg" alt="Latest" class="nav--img trends Rated"></a>
+            <a href="#"> <img src="../Img/SVG/Docsldpi.svg" alt="Documentation" class="nav--img docs"></a>
+            <a href="#"> <img src="../Img/SVG/Devsldpi.svg" alt="Developers info" class="nav--img devs"> </a>
+
+
+        </div>
+        <div class="side--bar optional">
+
+            <a href="#" class="head--tag home noon">Home</a>
+            <a href="#" data-pla="place5" class="head--tag mew popular">Popular</a>
+            <a href="#" data-pla="place4" class="head--tag mew  now-latest Rated">Top Rated</a>
+            <a href="#" class="head--tag mew  docs">Docs</a>
+            <a href="#" class="head--tag mew devs">Dev</a>
+            <h3 class="reject">
+                <img src="../Img/rejected.png" class="reject--icon" alt="">
+            </h3>
+        </div>
+    </header>
+
+    <main>
+        <div class="head--head--head">
+            <a href="#"> <img src="../Img/UI/1x/menu.svg" alt="Menu" class="nav--img Menu"></a>
+            <img src="../Img/SVG/Jubtube logoldpi.svg" class="jubtube--logo" alt="Jubtube">
+            <header class="secondary--header">
+                <form class="form--search" action="">
+                    <input type="text" class="input--text" placeholder="use enter key to search">
+                    <!-- <button class="btn btn--search" type="submit">
+
+                        <img src="../Img/SVG/Searchldpi.svg" class="icon--search" alt="Search">
+                    </button> -->
+                </form>
+            </header>
+        </div>
+        <section id="content--space">
+            <section class="modal modalHide">
+                <div class="cancel">
+                    <img src="../Img/rejected.png" alt="" class="canc">
+                </div>
+                <div class="modal1">
+                    <h3 class="m">Developer</h3>
+                    <p>I am Abdulbasit (Juptain), a software engineer from Nigeria specialize in developing
+                        functional user interface with cutting edge technologies. </p>
+                    <div class="contact">
+                        <a href="https://wa.me/message/GNZQ7IM4HWWXD1" class="cont">
+
+                            <img src="../Img/SVG/whatsapp-business-icon.svg" alt="whatsapp" id="W" class="whats">
+                        </a>
+                        <a href="https://twitter.com/juptain11?t=AA59w2gPOCIAxSEoTOKTLg&s=09" class="cont">
+                            <img src="../Img/SVG/twitter-app-icon.svg" alt="twitter" id="T" class="twit">
+                        </a>
+                    </div>
+                </div>
+                <div class="modal2">
+                    <h3 class="m">Documentation</h3>
+
+                    <h4 class="m">Aim</h4>
+                    <p>This website was created to solve the problem many people
+                        pass through when watching movies.
+                        Manytimes people spends so much time on a movie but at the end
+                        fell dissapointed because the movie didn't end well. But with juptube
+                        You can read about the movie you wish to watch and also watch the trailers
+                        before watching it thereby reducing the
+                         pain of watching a meaningless movie.
+                    </p>
+                    <h4 class="m">Source of information</h4>
+                    <p>All the information rendered on this
+                         website was gotten from The Movie . </p>
+                </div>
+            </section>
+            <small style="transform:translate(40vw)" class="paginate">Page 1</small>
+            <section class="main--section--main">
+
+                <h3 id="section--title">Upcoming</h3>
+                <section id="place1" class="View First--view">
+                    <section id="house1" class="upcoming--view views--collection"> </section>
+                </section>
+                <h3 id="section--title">Now Playing</h3>
+                <section id="place2" class="View First--view">
+                    <section id="house2" class="now-playing views--collection"> </section>
+                </section>
+
+                <h3 id="section--title">Top Rated</h3>
+                <section id="place4" class="View First--view">
+                    <section id="house4" class="top-rated view views--collection"> </section>
+                </section>
+                <h3 id="section--title">Most Popular</h3>
+                <section id="place5" class="View First--view">
+                    <section id="house5" class="most-popular view views--collection"> </section>
+                </section>
+
+            </section>
+            <!-- <section class="spinner">
+              <img src="../Img/SVG/spinner-gap.svg" alt="" class="spin">
+            </section> -->
+            <!-- <section class="main--sect--nav">
+                <div class="main--list">
+                    <a href="#" class="list one">Upcoming</a>
+                    <a href="#" class="list two"> Now Playing</a>
+                    <a href="#" class="list three">Latest</a>
+                    <a href="#" class="list four">Top Rated</a>
+                    <a href="#" class="list five">Most Popular</a>
+                </div>
+
+            </section> 
+
+            <section class="main--section--main">
+                
+                section one 
+                <h3 id="section--title">Upcoming</h3>
+                <section class="View First--view">
+
+                    <section class="upcoming--view views--collection">
+                        <div class="upcoming--display all--view">
+                            <aside class="internal">
+                                <h2 class="textA intro">Fall Apart</h2>
+                                <h4 class="textB intro">Things of the world</h4>
+                                <h4 class="textC intro">
+                                
+                                    <img src="../Img/SVG/star.svg" alt="" class="rate">
+                                </h4>
+                            </aside>
+                        </div>
+                        <div class="upcoming--display all--view"></div>
+                        <div class="upcoming--display all--view"></div>
+                        <div class="upcoming--display all--view"></div>
+                        <div class="upcoming--display all--view"></div>
+                        <div class="upcoming--display all--view"></div>
+                        <div class="upcoming--display all--view"></div>
+                        <div class="upcoming--display all--view"></div>
+                        <div class="upcoming--display all--view"></div>
+                        <div class="upcoming--display all--view"></div>
+                    </section>
+                    <section class="accordion first--acordion">
+                        <div class="arrowUp"> <img class="move--to " src="../img/SVG/caret-up-icon.svg" alt=""> </div>
+                        <div class="arrowDown"> <img class="move--to" src="../Img/SVG/caret-down-icon.svg" alt="">
+                        </div>
+                    </section>
+
+
+                </section>
+                 
+                section two 
+
+                <h3 id="section--title">Now Playing</h3>
+                <section class="View First--view ">
+
+                    <section class="now-playing views--collection">
+                        <div class="upcoming--display all--view">
+                            <aside class="internal">
+                                <h2 class="textA intro">Fall Apart</h2>
+                                <h4 class="textB intro">Things of the world</h4>
+                                <h4 class="textC intro">Ratings</h4>
+                            </aside>
+                        </div>
+                        <div class="upcoming--display all--view"></div>
+                        <div class="upcoming--display all--view"></div>
+                        <div class="upcoming--display all--view"></div>
+                        <div class="upcoming--display all--view"></div>
+                        <div class="upcoming--display all--view"></div>
+                        <div class="upcoming--display all--view"></div>
+                        <div class="upcoming--display all--view"></div>
+                        <div class="upcoming--display all--view"></div>
+                        <div class="upcoming--display all--view"></div>
+                    </section>
+                    <section class="accordion first--acordion">
+                        <div class="arrowUp"> <img class="move--to " src="../img/SVG/caret-up-icon.svg" alt=""> </div>
+                        <div class="arrowDown"> <img class="move--to" src="../Img/SVG/caret-down-icon.svg" alt="">
+                        </div>
+                    </section>
+
+
+                </section>
+
+                <h3 id="section--title">Latest</h3>
+                <section class="View First--view ">
+
+                    <section class="latest views--collection">
+                        <div class="upcoming--display all--view">
+                            <aside class="internal">
+                                <h2 class="textA intro">Fall Apart</h2>
+                                <h4 class="textB intro">Things of the world</h4>
+                                <h4 class="textC intro">Ratings</h4>
+                            </aside>
+                        </div>
+                        <div class="upcoming--display all--view"></div>
+                        <div class="upcoming--display all--view"></div>
+                        <div class="upcoming--display all--view"></div>
+                        <div class="upcoming--display all--view"></div>
+                        <div class="upcoming--display all--view"></div>
+                        <div class="upcoming--display all--view"></div>
+                        <div class="upcoming--display all--view"></div>
+                        <div class="upcoming--display all--view"></div>
+                        <div class="upcoming--display all--view"></div>
+                    </section>
+                    <section class="accordion first--acordion">
+                        <div class="arrowUp"> <img class="move--to " src="../img/SVG/caret-up-icon.svg" alt=""> </div>
+                        <div class="arrowDown"> <img class="move--to" src="../Img/SVG/caret-down-icon.svg" alt="">
+                        </div>
+                    </section>
+
+
+                </section>
+
+
+                <h3 id="section--title">Top Rated</h3>
+                <section class="View First--view ">
+
+                    <section class="top-rated view views--collection">
+                        <div class="upcoming--display all--view">
+                            <aside class="internal">
+                                <h2 class="textA intro">Fall Apart</h2>
+                                <h4 class="textB intro">Things of the world</h4>
+                                <h4 class="textC intro">Ratings</h4>
+                            </aside>
+                        </div>
+                        <div class="upcoming--display all--view"></div>
+                        <div class="upcoming--display all--view"></div>
+                        <div class="upcoming--display all--view"></div>
+                        <div class="upcoming--display all--view"></div>
+                        <div class="upcoming--display all--view"></div>
+                        <div class="upcoming--display all--view"></div>
+                        <div class="upcoming--display all--view"></div>
+                        <div class="upcoming--display all--view"></div>
+                        <div class="upcoming--display all--view"></div>
+                    </section>
+                    <section class="accordion first--acordion">
+                        <div class="arrowUp"> <img class="move--to " src="../img/SVG/caret-up-icon.svg" alt=""> </div>
+                        <div class="arrowDown"> <img class="move--to" src="../Img/SVG/caret-down-icon.svg" alt="">
+                        </div>
+                    </section>
+
+
+                </section>
+
+                <h3 id="section--title">Most Popular</h3>
+                <section class="View First--view ">
+
+                    <section class="most-popular view views--collection">
+                        <div class="upcoming--display all--view">
+                            <aside class="internal">
+                            <h2 class="textA intro">Fall Apart</h2>
+                            <h4 class="textB intro">Things of the world</h4>
+                            <h4 class="textC intro">Ratings</h4>
+                        </aside></div>
+                        <div class="upcoming--display all--view"></div>
+                        <div class="upcoming--display all--view"></div>
+                        <div class="upcoming--display all--view"></div>
+                        <div class="upcoming--display all--view"></div>
+                        <div class="upcoming--display all--view"></div>
+                        <div class="upcoming--display all--view"></div>
+                        <div class="upcoming--display all--view"></div>
+                        <div class="upcoming--display all--view"></div>
+                        <div class="upcoming--display all--view"></div>
+                    </section>
+                    <section class="accordion first--acordion">
+                        <div class="arrowUp"> <img class="move--to " src="../img/SVG/caret-up-icon.svg" alt=""> </div>
+                        <div class="arrowDown"> <img class="move--to" src="../Img/SVG/caret-down-icon.svg" alt="">
+                        </div>
+                    </section>
+
+
+                </section> -->
+
+
+
+            <!--             
+            <section class="result--search--container">
+                <div class="each-result">
+                    <aside class="internal">
+                        <h2 class="textA intro">Fall Apart</h2>
+                        <h4 class="textB intro">Things of the world</h4>
+                        <h4 class="textC intro">
+                        
+                            <img src="../Img/SVG/star.svg" alt="" class="rate">
+                        </h4>
+                    </aside>
+                </div>
+                <div class="each-result"></div>
+                <div class="each-result"></div>
+                <div class="each-result"></div>
+                <div class="each-result"></div>
+                <div class="each-result"></div>
+                <div class="each-result"></div>
+                <div class="each-result"></div>
+                <div class="each-result"></div>
+                <div class="each-result"></div>
+                <div class="each-result"></div>
+                <div class="each-result"></div>
+                <div class="each-result"></div>
+                <div class="each-result"></div>
+                <div class="each-result"></div>
+                <div class="each-result"></div>
+                <div class="each-result"></div>
+                <div class="each-result"></div>
+                <div class="each-result"></div>
+                <div class="each-result"></div>
+           
+        </section> -->
+
+            <!-- <section class="target">
+                <section class="partA tar">
+                    <div class="space1 just"> 
+                        <a href="youtube link">
+                            <img src="../Img/SVG/youtube.svg" alt="youtube link" class="youtube--link">
+                        </a>
+                        <a id="homepage" href="homepage link">
+                           <small> Visit video homepage</small>
+                        </a>
+                    </div>
+
+                </section>
+                <section class="partB tar">
+
+                    <div class="pushover1">
+
+                        <button class="btn--tab tab-container tab--active" data-move="1">Info</button>
+
+                        <button class="btn--tab tab-container" data-move="2">Overview</button>
+
+                        <button class="btn--tab tab-container" data-move="3">Reviews</button>
+
+                        <button class="btn--tab tab-container" data-move="4">Recommended</button>
+
+
+
+
+                    </div>
+                    <div class="pushover2">
+                        <article id="Num--1" class="stack Num--1 content--active">
+                            
+                          <table>
+                            <tr>
+                                <td>Title</td>
+                                <td>Movie</td>
+                            </tr>
+
+                            <tr>
+                                <td>Genre</td>
+                                <td>Action</td>
+                            </tr>
+
+
+                            <tr>
+                                <td>Release Date</td>
+                                <td>January 1</td>
+                            </tr>
+                            <tr>
+                                <td>Production Country</td>
+                                <td>Nigeria</td>
+                            </tr>
+                            <tr>
+                                <td>Ratings</td>
+                                <td>vote Average</td>
+                            </tr>
+
+                          </table>
+                        
+                        </article>
+                        <article id="Num--2" class="stack Num--2">
+                            <p>Overview</p>
+                        </article>
+                        <article id="Num--3" class="stack Num--3">
+                            <div class="review">
+                               <div class="img--holder">
+                                <img src="../Img/UI/1x/UIldpi.jpg" class="revImg" alt="Review author">
+                                <h3>Author's Name</h3>
+                                <small>created-at</small>
+                               </div>
+                               <div class="reviewHolder">
+                                <p>Reviews</p>
+                               </div>
+                            </div> 
+
+                            <div class="review">
+                                <div class="img--holder">
+                                    <img src="../Img/UI/1x/UIldpi.jpg" class="revImg" alt="Review author">
+                                    <h3>Author's Name</h3>
+                                    <small>created-at</small>
+                                </div>
+                                <div class="reviewHolder">
+                                    <p>Reviews</p>
+                                </div>
+                            </div>
+
+                            <div class="review">
+                                <div class="img--holder">
+                                    <img src="../Img/UI/1x/UIldpi.jpg" class="revImg" alt="Review author">
+                                    <h3>Author's Name</h3>
+                                    <small>created-at</small>
+                                </div>
+                                <div class="reviewHolder">
+                                    <p>Reviews</p>
+                                </div>
+                            </div>
+                        </article>
+                        <article id="Num--4" class="stack Num--4">
+                            <section id="rec-list">
+                                    <div class="rec--movies">
+                                        <aside class="internalRec">
+                                            <h2 class="textA intro">Fall Apart</h2>
+                                            <h4 class="textB intro">Things of the world</h4>
+                                            <h4 class="textC intro">
+
+                                                <img src="../Img/SVG/star.svg" alt="" class="rate">
+                                            </h4>
+                                        </aside>
+                                    </div>
+                                <div class="rec--movies">
+                                    <aside class="internalRec">
+                                        <h2 class="textA intro">Fall Apart</h2>
+                                        <h4 class="textB intro">Things of the world</h4>
+                                        <h4 class="textC intro">Ratings</h4>
+                                    </aside>
+                                </div>
+                                <div class="rec--movies">
+                                    <aside class="internalRec">
+                                        <h2 class="textA intro">Fall Apart</h2>
+                                        <h4 class="textB intro">Things of the world</h4>
+                                        <h4 class="textC intro">Ratings
+                                           
+                                        </h4>
+                                    </aside>
+                                </div>
+                                <div class="rec--movies">
+                                    <aside class="internalRec">
+                                        <h2 class="textA intro">Fall Apart</h2>
+                                        <h4 class="textB intro">Things of the world</h4>
+                                        <h4 class="textC intro">Ratings</h4>
+                                    </aside>
+                                </div>
+                                <div class="rec--movies">
+                                    <aside class="internalRec">
+                                        <h2 class="textA intro">Fall Apart</h2>
+                                        <h4 class="textB intro">Things of the world</h4>
+                                        <h4 class="textC intro">Ratings</h4>
+                                    </aside>
+                                </div>
+                                    <div class="rec--movies">
+                                        <aside class="internalRec">
+                                            <h2 class="textA intro">Fall Apart</h2>
+                                            <h4 class="textB intro">Things of the world</h4>
+                                            <h4 class="textC intro">Ratings</h4>
+                                        </aside>
+                                    </div>
+                                    <div class="rec--movies">
+                                        <aside class="internalRec">
+                                            <h2 class="textA intro">Fall Apart</h2>
+                                            <h4 class="textB intro">Things of the world</h4>
+                                            <h4 class="textC intro">Ratings</h4>
+                                        </aside>
+                                    </div>
+                                    <div class="rec--movies">
+                                        <aside class="internalRec">
+                                            <h2 class="textA intro">Fall Apart</h2>
+                                            <h4 class="textB intro">Things of the world</h4>
+                                            <h4 class="textC intro">Ratings</h4>
+                                        </aside>
+                                    </div>
+                                    <div class="rec--movies">
+                                        <aside class="internalRec">
+                                            <h2 class="textA intro">Fall Apart</h2>
+                                            <h4 class="textB intro">Things of the world</h4>
+                                            <h4 class="textC intro">Ratings</h4>
+                                        </aside>
+                                    </div>
+                                    <div class="rec--movies">
+                                        <aside class="internalRec">
+                                            <h2 class="textA intro">Fall Apart</h2>
+                                            <h4 class="textB intro">Things of the world</h4>
+                                            <h4 class="textC intro">Ratings</h4>
+                                        </aside>
+                                    </div>
+                                   
+                                        <div class="second--acc"> <img class="recUp recarr" src="../img/SVG/caret-up-icon.svg" alt="">
+                                        <img class="recDown recarr" src="../Img/SVG/caret-down-icon.svg" alt="">
+                                        </div>
+
+                            </section>
+                        </article>
+                    </div>
+                </section> -->
+        </section>
+        </section>
+    </main>
+
+</body>
+
+</html>

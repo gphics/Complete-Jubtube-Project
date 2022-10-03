@@ -1,0 +1,109 @@
+.result--search--container {
+    margin: 3%;
+    width: 95%;
+    height: max-content;
+    display: flex;
+    flex-flow: wrap;
+    flex: 1 1 auto;
+
+    --primary--color: rgb(14, 17, 22);
+    --secondary--color: rgb(2, 157, 91);
+    --text--color: white;
+    --shadow: 5px 2px 2px rgba(255, 255, 255, 0.2),
+        -1px -1px 2px rgba(255, 255, 255, 0.2);
+    background-color: var(--primary--color);
+    font-family: Roboto;
+    font-weight: bold;
+    font-weight: 600;
+
+}
+
+.each-result {
+    width: 19%;
+    height: 30%;
+    background-color: var(--primary--color);
+    box-shadow: var(--shadow);
+    flex: 1 1 auto;
+    margin: 1%;
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+    overflow: hidden;
+    border-radius: 3%;
+    -webkit-border-radius: 3%;
+    -moz-border-radius: 3%;
+    -ms-border-radius: 3%;
+    -o-border-radius: 3%;
+}
+
+.each-result:hover {
+    transform: scale(1.02);
+    -webkit-transform: scale(1.02);
+    -moz-transform: scale(1.02);
+    -ms-transform: scale(1.02);
+    -o-transform: scale(1.02);
+}
+
+.internal {
+    /* color: var(--text--color); */
+    margin: 40% 5% 0 5%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.intro {
+    padding: 0;
+    margin: 0;
+    flex-direction: 1 1 auto;
+
+    ;
+}
+
+@media (max-width:800px) {
+    .each-result {
+        width: 40%;
+        height: 20%;
+    }
+
+    .internal {
+        margin: 40% 5% 0 5%;
+    }
+}
+
+@media (max-width:430px) {
+    .each-result {
+        width: 40%;
+        height: 15%;
+        margin: 5%;
+    }
+
+    .internal {
+        margin: 45% 5% 0 5%;
+
+    }
+}
+
+.spinner {
+    width: 90%;
+    height: 10vh;
+    margin: 5%;
+    transform: translate(45%);
+}
+
+.spin {
+    width: 10%;
+    height: 10em;
+    background-color: transparent;
+    filter: invert(67%) sepia(50%) brightness(100) saturate(100) contrast(100);
+    animation: rot 1s ease-in infinite;
+
+}
+
+@keyframes rot {
+    100% {
+        transform: rotate(360deg);
+    }
+}
