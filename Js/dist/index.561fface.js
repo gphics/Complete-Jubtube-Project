@@ -535,6 +535,7 @@ function hmrAcceptRun(bundle, id) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "page", ()=>page);
+parcelHelpers.export(exports, "LoadEach", ()=>LoadEach);
 var _homeView = require("./Views/HomeView");
 var _homeViewDefault = parcelHelpers.interopDefault(_homeView);
 var _model = require("./model/model");
@@ -1002,8 +1003,8 @@ class HomeView {
         const html = `
    <section class="accordion first--acordion" >
 
-                        <div id="arru5" class="arrowUp"> <img  class="move--to " src="CaretU.svg" style="filter:sepia(27%)" alt="ccc"> </div>
-                        <div id="arrd5" class="arrowDown"> <img class="move--to" src="next11.svg" alt="">
+                        <div id="arru5" class="arrowUp"> <img  class="move--to " src="UI.svg" style="filter:sepia(27%)" alt="ccc"> </div>
+                        <div id="arrd5" class="arrowDown"> <img class="move--to" src="DI.svg" alt="">
                         </div>
                     </section>
   `;
@@ -1175,15 +1176,12 @@ async function EACH(A) {
     console.log(LaunchB);
     const rev = await fetch(`https://api.themoviedb.org/3/movie/${A}/reviews?api_key=${(0, _configJsDefault.default).API_KEY}&language=en-US&page=1`);
     let rev2 = await rev.json();
-    console.log(rev2);
     rev2 = rev2.results;
     rev3 = rev2;
-    console.log(rev3);
     const recA = await fetch(`https://api.themoviedb.org/3/movie/${A}/recommendations?api_key=${(0, _configJsDefault.default).API_KEY}&language=en-US&page=1`);
     let recB = await recA.json();
     recB = recB.results;
     rec3 = recB;
-    console.log(recB);
 }
 let page = 1;
 let tPages;
@@ -1195,7 +1193,6 @@ async function UpcomingMovies() {
         tPages = second.total_pages;
         second = second.results;
         testSecond = second;
-        console.log(testSecond.length);
         second.forEach((element)=>{
             (0, _homeViewDefault.default).renderUpcoming(element);
         });
@@ -1213,8 +1210,10 @@ function Up1() {
         page = 1;
         UpcomingMovies();
     }
+    if (testSecond.length > 1) _controller.LoadEach();
 }
 function Down1() {
+    console.log("welcome");
     if (page === tPages) {
         page = tPages;
         (0, _homeViewDefault.default).clear1();
@@ -1224,13 +1223,16 @@ function Down1() {
         (0, _homeViewDefault.default).clear1();
         UpcomingMovies();
     }
+    if (testSecond.length > 1) _controller.LoadEach();
 }
+let td;
 async function NowPlayingMovies() {
     try {
         const first = await fetch(`${(0, _configJsDefault.default).nowPlayingURL}${(0, _configJsDefault.default).API_KEY}${(0, _configJsDefault.default).LANG}${page}`);
         let second = await first.json();
         tPages = second.total_pages;
         second = second.results;
+        td = second;
         second.forEach((element)=>{
             (0, _homeViewDefault.default).renderNowPlaying(element);
         });
@@ -1249,6 +1251,7 @@ function Up2() {
         page = 1;
         NowPlayingMovies();
     }
+    if (td.length > 1) _controller.LoadEach();
 }
 function Down2() {
     if (page === tPages) {
@@ -1260,13 +1263,16 @@ function Down2() {
         (0, _homeViewDefault.default).clear2();
         NowPlayingMovies();
     }
+    if (td.length > 1) _controller.LoadEach();
 }
+let tc;
 async function TopRatedMovies() {
     try {
         const first = await fetch(`${(0, _configJsDefault.default).TopRatedURL}${(0, _configJsDefault.default).API_KEY}${(0, _configJsDefault.default).LANG}${page}`);
         let second = await first.json();
         tPages = second.total_pages;
         second = second.results;
+        tc = second;
         second.forEach((element)=>{
             (0, _homeViewDefault.default).renderTopRated(element);
         });
@@ -1285,6 +1291,7 @@ function Up3() {
         page = 1;
         TopRatedMovies();
     }
+    if (tc.length > 1) _controller.LoadEach();
 }
 function Down3() {
     if (page === tPages) {
@@ -1296,19 +1303,23 @@ function Down3() {
         (0, _homeViewDefault.default).clear4();
         TopRatedMovies();
     }
+    if (tc.length > 1) _controller.LoadEach();
 }
+let ct;
 async function MostPopularMovies() {
     try {
         const first = await fetch(`${(0, _configJsDefault.default).MostPopular}${(0, _configJsDefault.default).API_KEY}${(0, _configJsDefault.default).LANG}${page}`);
         let second = await first.json();
         tPages = second.total_pages;
         second = second.results;
+        ct = second;
         second.forEach((element)=>{
             (0, _homeViewDefault.default).renderMostPopular(element);
         });
     } catch (err) {
         console.log(err, "I am the");
     }
+    _controller.LoadEach();
 }
 function Up4() {
     console.log("UP2 CLICKED");
@@ -1321,6 +1332,7 @@ function Up4() {
         page = 1;
         MostPopularMovies();
     }
+    if (ct.length > 1) _controller.LoadEach();
 }
 function Down4() {
     if (page === tPages) {
@@ -1332,6 +1344,7 @@ function Down4() {
         (0, _homeViewDefault.default).clear5();
         MostPopularMovies();
     }
+    if (ct.length > 1) _controller.LoadEach();
 }
 let Val2;
 let Total;

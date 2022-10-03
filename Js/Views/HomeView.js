@@ -264,8 +264,8 @@ class HomeView {
     const html = `
    <section class="accordion first--acordion" >
 
-                        <div id="arru5" class="arrowUp"> <img  class="move--to " src="CaretU.svg" style="filter:sepia(27%)" alt="ccc"> </div>
-                        <div id="arrd5" class="arrowDown"> <img class="move--to" src="next11.svg" alt="">
+                        <div id="arru5" class="arrowUp"> <img  class="move--to " src="UI.svg" style="filter:sepia(27%)" alt="ccc"> </div>
+                        <div id="arrd5" class="arrowDown"> <img class="move--to" src="DI.svg" alt="">
                         </div>
                     </section>
   `;

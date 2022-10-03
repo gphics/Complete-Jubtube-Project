@@ -57,7 +57,7 @@ function age() {
   }, config.time);
 }
 
-function LoadEach() {
+export function LoadEach() {
   // alert(model.testSecond);
   
   setTimeout(() => {

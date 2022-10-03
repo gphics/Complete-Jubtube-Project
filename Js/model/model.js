@@ -2,6 +2,7 @@ import HomeView from "../Views/HomeView";
 import config from "../config.js";
 import { page as newPage } from "../controller";
 import { async } from "regenerator-runtime";
+import * as control from "../controller"
 
 export const movies = {
   upcoming: {},
@@ -23,10 +24,10 @@ export async function EACH(A) {
     `https://api.themoviedb.org/3/movie/${A}/reviews?api_key=${config.API_KEY}&language=en-US&page=1`
   );
   let rev2 = await rev.json();
-  console.log(rev2);
+  
   rev2 = rev2.results;
   rev3 = rev2;
-  console.log(rev3);
+  
 
   const recA = await fetch(
     `https://api.themoviedb.org/3/movie/${A}/recommendations?api_key=${config.API_KEY}&language=en-US&page=1`
@@ -34,7 +35,7 @@ export async function EACH(A) {
   let recB = await recA.json();
   recB = recB.results;
   rec3 = recB;
-  console.log(recB);
+
 }
 
 export let page = 1;
@@ -49,7 +50,6 @@ export async function UpcomingMovies() {
     tPages = second.total_pages;
     second = second.results;
     testSecond = second;
-    console.log(testSecond.length);
     second.forEach((element) => {
       HomeView.renderUpcoming(element);
     });
@@ -68,8 +68,11 @@ export function Up1() {
     page = 1;
     UpcomingMovies();
   }
+  if (testSecond.length > 1) control.LoadEach();
+
 }
 export function Down1() {
+  console.log('welcome');
   if (page === tPages) {
     page = tPages;
     HomeView.clear1();
@@ -79,8 +82,11 @@ export function Down1() {
     HomeView.clear1();
     UpcomingMovies();
   }
+  if (testSecond.length>1) control.LoadEach()
+
 }
 
+let td;
 export async function NowPlayingMovies() {
   try {
     const first = await fetch(
@@ -89,7 +95,7 @@ export async function NowPlayingMovies() {
     let second = await first.json();
     tPages = second.total_pages;
     second = second.results;
-
+      td = second
     second.forEach((element) => {
       HomeView.renderNowPlaying(element);
     });
@@ -109,6 +115,8 @@ export function Up2() {
     page = 1;
     NowPlayingMovies();
   }
+  if (td.length > 1) control.LoadEach();
+
 }
 export function Down2() {
   if (page === tPages) {
@@ -120,8 +128,11 @@ export function Down2() {
     HomeView.clear2();
     NowPlayingMovies();
   }
+     if (td.length > 1) control.LoadEach();
+
 }
 
+let tc;
 export async function TopRatedMovies() {
   try {
     const first = await fetch(
@@ -130,7 +141,7 @@ export async function TopRatedMovies() {
     let second = await first.json();
     tPages = second.total_pages;
     second = second.results;
-
+tc = second
     second.forEach((element) => {
       HomeView.renderTopRated(element);
     });
@@ -150,6 +161,8 @@ export function Up3() {
     page = 1;
     TopRatedMovies();
   }
+     if (tc.length > 1) control.LoadEach();
+
 }
 export function Down3() {
   if (page === tPages) {
@@ -161,7 +174,10 @@ export function Down3() {
     HomeView.clear4();
     TopRatedMovies();
   }
+    if (tc.length > 1) control.LoadEach();
+
 }
+let ct;
 export async function MostPopularMovies() {
   try {
     const first = await fetch(
@@ -170,13 +186,15 @@ export async function MostPopularMovies() {
     let second = await first.json();
     tPages = second.total_pages;
     second = second.results;
-
+      ct = second
     second.forEach((element) => {
       HomeView.renderMostPopular(element);
     });
   } catch (err) {
     console.log(err, "I am the");
   }
+    control.LoadEach();
+
 }
 
 export function Up4() {
@@ -190,6 +208,8 @@ export function Up4() {
     page = 1;
     MostPopularMovies();
   }
+    if (ct.length > 1) control.LoadEach();
+
 }
 export function Down4() {
   if (page === tPages) {
@@ -201,6 +221,8 @@ export function Down4() {
     HomeView.clear5();
     MostPopularMovies();
   }
+  if (ct.length > 1) control.LoadEach();
+
 }
 
 //Search functionality

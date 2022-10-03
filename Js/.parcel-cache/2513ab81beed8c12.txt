@@ -1,8 +1,8 @@
-4256
+4264
 85C:\Users\owner\Desktop\PROJECT\120 DAYS OF CODE\Jubtube Project\Js\node_modules\@lmdb133088059512586972 1
 114C:\Users\owner\Desktop\PROJECT\120 DAYS OF CODE\Jubtube Project\Js\node_modules\lmdb\dependencies\lz4\lib\xxhash.h133088046570649640 0
 117C:\Users\owner\Desktop\PROJECT\120 DAYS OF CODE\Jubtube Project\Js\node_modules\@parcel\runtime-js\lib\helpers\worker133088046297330560 1
-84C:\Users\owner\Desktop\PROJECT\120 DAYS OF CODE\Jubtube Project\Js\Views\HomeView.js133092376407171675 0
+84C:\Users\owner\Desktop\PROJECT\120 DAYS OF CODE\Jubtube Project\Js\Views\HomeView.js133092946429427235 0
 77C:\Users\owner\Desktop\PROJECT\120 DAYS OF CODE\Jubtube Project\Js\article.js133090877214958437 0
 106C:\Users\owner\Desktop\PROJECT\120 DAYS OF CODE\Jubtube Project\Js\node_modules\dotenv-expand\package.json133088045399511107 0
 119C:\Users\owner\Desktop\PROJECT\120 DAYS OF CODE\Jubtube Project\Js\node_modules\utility-types\dist\utility-types.js.map133088046065070982 0
@@ -22,7 +22,7 @@
 112C:\Users\owner\Desktop\PROJECT\120 DAYS OF CODE\Jubtube Project\Js\node_modules\svgo\plugins\convertTransform.js133088046216794775 0
 116C:\Users\owner\Desktop\PROJECT\120 DAYS OF CODE\Jubtube Project\Js\node_modules\caniuse-lite\data\features\hidden.js133088046723028390 0
 103C:\Users\owner\Desktop\PROJECT\120 DAYS OF CODE\Jubtube Project\Js\node_modules\terser\lib\transform.js133088046394293866 0
-77C:\Users\owner\Desktop\PROJECT\120 DAYS OF CODE\Jubtube Project\Js\index.html133092364945227484 0
+77C:\Users\owner\Desktop\PROJECT\120 DAYS OF CODE\Jubtube Project\Js\index.html133092975628758722 0
 93C:\Users\owner\Desktop\PROJECT\120 DAYS OF CODE\Jubtube Project\Js\node_modules\color-convert133088045949355679 1
 104C:\Users\owner\Desktop\PROJECT\120 DAYS OF CODE\Jubtube Project\Js\node_modules\svgo\lib\svgo\jsAPI.d.ts133088046504642930 0
 122C:\Users\owner\Desktop\PROJECT\120 DAYS OF CODE\Jubtube Project\Js\node_modules\caniuse-lite\data\features\script-async.js133088046792269337 0
@@ -34,9 +34,9 @@
 111C:\Users\owner\Desktop\PROJECT\120 DAYS OF CODE\Jubtube Project\Js\node_modules\css-tree\lib\syntax\node\CDC.js133088046071284413 0
 158C:\Users\owner\Desktop\PROJECT\120 DAYS OF CODE\Jubtube Project\Js\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\package-main\package.json133088046523171365 0
 93C:\Users\owner\Desktop\PROJECT\120 DAYS OF CODE\Jubtube Project\Js\node_modules\node-releases133088045921228449 1
-80C:\Users\owner\Desktop\PROJECT\120 DAYS OF CODE\Jubtube Project\Js\controller.js133092365178880627 0
+80C:\Users\owner\Desktop\PROJECT\120 DAYS OF CODE\Jubtube Project\Js\controller.js133092948429842078 0
 89C:\Users\owner\Desktop\PROJECT\120 DAYS OF CODE\Jubtube Project\Js\node_modules\path-type133088045847991060 1
-71C:\Users\owner\Desktop\PROJECT\120 DAYS OF CODE\Jubtube Project\Js\dist133092376987374786 1
+71C:\Users\owner\Desktop\PROJECT\120 DAYS OF CODE\Jubtube Project\Js\dist133092977009915599 1
 126C:\Users\owner\Desktop\PROJECT\120 DAYS OF CODE\Jubtube Project\Js\node_modules\caniuse-lite\data\features\css-color-adjust.js133088046577193067 0
 107C:\Users\owner\Desktop\PROJECT\120 DAYS OF CODE\Jubtube Project\Js\node_modules\@parcel\workers\lib\threads133088046286392746 1
 105C:\Users\owner\Desktop\PROJECT\120 DAYS OF CODE\Jubtube Project\Js\node_modules\chalk\source\templates.js133088045748650523 0
@@ -536,7 +536,7 @@
 93C:\Users\owner\Desktop\PROJECT\120 DAYS OF CODE\Jubtube Project\Js\node_modules\yaml\types.js133088046330952361 0
 126C:\Users\owner\Desktop\PROJECT\120 DAYS OF CODE\Jubtube Project\Js\node_modules\@swc\helpers\src\_class_private_field_init.mjs133088046537790493 0
 123C:\Users\owner\Desktop\PROJECT\120 DAYS OF CODE\Jubtube Project\Js\node_modules\@parcel\workers\src\process\ProcessChild.js133088046227337156 0
-94C:\Users\owner\Desktop\PROJECT\120 DAYS OF CODE\Jubtube Project\Js\dist\index.2edb0415.css.map133092369886874954 0
+94C:\Users\owner\Desktop\PROJECT\120 DAYS OF CODE\Jubtube Project\Js\dist\index.2edb0415.css.map133092960555457848 0
 100C:\Users\owner\Desktop\PROJECT\120 DAYS OF CODE\Jubtube Project\Js\node_modules\resolve-from\license133088045717554107 0
 94C:\Users\owner\Desktop\PROJECT\120 DAYS OF CODE\Jubtube Project\Js\node_modules\yaml\types.mjs133088046379939246 0
 105C:\Users\owner\Desktop\PROJECT\120 DAYS OF CODE\Jubtube Project\Js\node_modules\svgo\plugins\prefixIds.js133088046311452292 0
@@ -895,7 +895,7 @@
 101C:\Users\owner\Desktop\PROJECT\120 DAYS OF CODE\Jubtube Project\Js\dist\twitter-app-icon.8e355820.svg133092376981861524 0
 101C:\Users\owner\Desktop\PROJECT\120 DAYS OF CODE\Jubtube Project\Js\node_modules\terser\bin\terser.mjs133088046445965479 0
 124C:\Users\owner\Desktop\PROJECT\120 DAYS OF CODE\Jubtube Project\Js\node_modules\terser\lib\compress\drop-side-effect-free.js133088046260110691 0
-93C:\Users\owner\Desktop\PROJECT\120 DAYS OF CODE\Jubtube Project\Js\dist\index.bc69a49a.js.map133092369887024944 0
+93C:\Users\owner\Desktop\PROJECT\120 DAYS OF CODE\Jubtube Project\Js\dist\index.bc69a49a.js.map133092960555557766 0
 111C:\Users\owner\Desktop\PROJECT\120 DAYS OF CODE\Jubtube Project\Js\node_modules\source-map\lib\binary-search.js133088045985179963 0
 130C:\Users\owner\Desktop\PROJECT\120 DAYS OF CODE\Jubtube Project\Js\node_modules\@parcel\core\test\PublicMutableBundleGraph.test.js133088046571246874 0
 108C:\Users\owner\Desktop\PROJECT\120 DAYS OF CODE\Jubtube Project\Js\node_modules\type-fest\source\except.d.ts133088046120552810 0
@@ -977,6 +977,7 @@
 96C:\Users\owner\Desktop\PROJECT\120 DAYS OF CODE\Jubtube Project\Js\node_modules\tslib\tslib.d.ts133088046033323229 0
 100C:\Users\owner\Desktop\PROJECT\120 DAYS OF CODE\Jubtube Project\Js\node_modules\tslib\tslib.es6.html133088045391492710 0
 100C:\Users\owner\Desktop\PROJECT\120 DAYS OF CODE\Jubtube Project\Js\node_modules\svgo\lib\svgo\coa.js133088046132899885 0
+90C:\Users\owner\Desktop\PROJECT\120 DAYS OF CODE\Jubtube Project\Js\dist\index.2cf94a5b.css133092975766226959 0
 106C:\Users\owner\Desktop\PROJECT\120 DAYS OF CODE\Jubtube Project\Js\node_modules\color-convert\package.json133088045395375632 0
 123C:\Users\owner\Desktop\PROJECT\120 DAYS OF CODE\Jubtube Project\Js\node_modules\caniuse-lite\data\features\html5semantic.js133088046724171648 0
 104C:\Users\owner\Desktop\PROJECT\120 DAYS OF CODE\Jubtube Project\Js\node_modules\terser\tools\domprops.js133088046250232808 0
@@ -1302,7 +1303,7 @@
 111C:\Users\owner\Desktop\PROJECT\120 DAYS OF CODE\Jubtube Project\Js\node_modules\caniuse-lite\data\regions\BY.js133088046503651846 0
 109C:\Users\owner\Desktop\PROJECT\120 DAYS OF CODE\Jubtube Project\Js\node_modules\source-map-support\LICENSE.md133088045948618720 0
 120C:\Users\owner\Desktop\PROJECT\120 DAYS OF CODE\Jubtube Project\Js\node_modules\source-map-support\source-map-support.js133088045856564832 0
-82C:\Users\owner\Desktop\PROJECT\120 DAYS OF CODE\Jubtube Project\Js\dist\index.html133092376981861524 0
+82C:\Users\owner\Desktop\PROJECT\120 DAYS OF CODE\Jubtube Project\Js\dist\index.html133092977009236096 0
 96C:\Users\owner\Desktop\PROJECT\120 DAYS OF CODE\Jubtube Project\Js\node_modules\msgpackr\LICENSE133088045389855202 0
 99C:\Users\owner\Desktop\PROJECT\120 DAYS OF CODE\Jubtube Project\Js\node_modules\ordered-binary\dist133088045446081620 1
 103C:\Users\owner\Desktop\PROJECT\120 DAYS OF CODE\Jubtube Project\Js\node_modules\domutils\lib\index.d.ts133088046182566493 0
@@ -1592,7 +1593,7 @@
 102C:\Users\owner\Desktop\PROJECT\120 DAYS OF CODE\Jubtube Project\Js\node_modules\@parcel\codeframe\test133088046224967670 1
 128C:\Users\owner\Desktop\PROJECT\120 DAYS OF CODE\Jubtube Project\Js\node_modules\caniuse-lite\data\features\css-color-function.js133088046577627481 0
 112C:\Users\owner\Desktop\PROJECT\120 DAYS OF CODE\Jubtube Project\Js\node_modules\nth-check\lib\esm\parse.d.ts.map133088046151517273 0
-81C:\Users\owner\Desktop\PROJECT\120 DAYS OF CODE\Jubtube Project\Js\model\model.js133091411991350096 0
+81C:\Users\owner\Desktop\PROJECT\120 DAYS OF CODE\Jubtube Project\Js\model\model.js133092961807199796 0
 106C:\Users\owner\Desktop\PROJECT\120 DAYS OF CODE\Jubtube Project\Js\node_modules\nth-check\lib\esm\parse.js133088045928804575 0
 111C:\Users\owner\Desktop\PROJECT\120 DAYS OF CODE\Jubtube Project\Js\node_modules\caniuse-lite\data\regions\PF.js133088046763858198 0
 102C:\Users\owner\Desktop\PROJECT\120 DAYS OF CODE\Jubtube Project\Js\node_modules\js-tokens\CHANGELOG.md133088045445640882 0
@@ -1777,6 +1778,7 @@
 101C:\Users\owner\Desktop\PROJECT\120 DAYS OF CODE\Jubtube Project\Js\node_modules\mdn-data\css\index.js133088045750497874 0
 127C:\Users\owner\Desktop\PROJECT\120 DAYS OF CODE\Jubtube Project\Js\node_modules\lmdb\dependencies\lz4\lib\dll\example\README.md133088046578000178 0
 115C:\Users\owner\Desktop\PROJECT\120 DAYS OF CODE\Jubtube Project\Js\node_modules\caniuse-lite\data\features\touch.js133088046803476538 0
+93C:\Users\owner\Desktop\PROJECT\120 DAYS OF CODE\Jubtube Project\Js\dist\index.73441844.js.map133092977009875623 0
 106C:\Users\owner\Desktop\PROJECT\120 DAYS OF CODE\Jubtube Project\Js\node_modules\mdn-data\css\syntaxes.json133088046215813186 0
 123C:\Users\owner\Desktop\PROJECT\120 DAYS OF CODE\Jubtube Project\Js\node_modules\caniuse-lite\data\features\passwordrules.js133088046762354934 0
 113C:\Users\owner\Desktop\PROJECT\120 DAYS OF CODE\Jubtube Project\Js\node_modules\mdn-data\css\syntaxes.schema.json133088046221887824 0
@@ -1867,6 +1869,7 @@
 111C:\Users\owner\Desktop\PROJECT\120 DAYS OF CODE\Jubtube Project\Js\node_modules\caniuse-lite\data\regions\CO.js133088046540290792 0
 113C:\Users\owner\Desktop\PROJECT\120 DAYS OF CODE\Jubtube Project\Js\node_modules\lmdb\dependencies\lz4\lib\lz4hc.c133088046291012432 0
 111C:\Users\owner\Desktop\PROJECT\120 DAYS OF CODE\Jubtube Project\Js\node_modules\caniuse-lite\data\regions\VI.js133088046805746225 0
+79C:\Users\owner\Desktop\PROJECT\120 DAYS OF CODE\Jubtube Project\Js\dist\.vscode133092377776572861 1
 115C:\Users\owner\Desktop\PROJECT\120 DAYS OF CODE\Jubtube Project\Js\node_modules\lmdb\dependencies\lz4\lib\README.md133088046578253126 0
 117C:\Users\owner\Desktop\PROJECT\120 DAYS OF CODE\Jubtube Project\Js\node_modules\lmdb\dependencies\lz4\lib\dll\example133088046589425454 1
 98C:\Users\owner\Desktop\PROJECT\120 DAYS OF CODE\Jubtube Project\Js\node_modules\domhandler\LICENSE133088045390075087 0
@@ -1985,6 +1988,7 @@
 98C:\Users\owner\Desktop\PROJECT\120 DAYS OF CODE\Jubtube Project\Js\node_modules\js-tokens\index.js133088045717534108 0
 140C:\Users\owner\Desktop\PROJECT\120 DAYS OF CODE\Jubtube Project\Js\node_modules\htmlnano\docs\versioned_docs\version-1.1.1\060-contribute.md133088046458716329 0
 102C:\Users\owner\Desktop\PROJECT\120 DAYS OF CODE\Jubtube Project\Js\node_modules\js-tokens\package.json133088045389855202 0
+89C:\Users\owner\Desktop\PROJECT\120 DAYS OF CODE\Jubtube Project\Js\dist\index.73441844.js133092977009286100 0
 96C:\Users\owner\Desktop\PROJECT\120 DAYS OF CODE\Jubtube Project\Js\node_modules\is-json\index.js133088045857826607 0
 121C:\Users\owner\Desktop\PROJECT\120 DAYS OF CODE\Jubtube Project\Js\node_modules\caniuse-lite\data\features\css3-colors.js133088046638213071 0
 97C:\Users\owner\Desktop\PROJECT\120 DAYS OF CODE\Jubtube Project\Js\node_modules\is-json\README.md133088045717534108 0
@@ -2484,7 +2488,7 @@
 113C:\Users\owner\Desktop\PROJECT\120 DAYS OF CODE\Jubtube Project\Js\node_modules\css-tree\lib\syntax\pseudo\common133088046541964515 1
 114C:\Users\owner\Desktop\PROJECT\120 DAYS OF CODE\Jubtube Project\Js\node_modules\css-tree\lib\syntax\pseudo\lang.js133088046474370103 0
 111C:\Users\owner\Desktop\PROJECT\120 DAYS OF CODE\Jubtube Project\Js\node_modules\caniuse-lite\data\regions\TL.js133088046799966993 0
-94C:\Users\owner\Desktop\PROJECT\120 DAYS OF CODE\Jubtube Project\Js\dist\index.242defe3.css.map133092369886874954 0
+94C:\Users\owner\Desktop\PROJECT\120 DAYS OF CODE\Jubtube Project\Js\dist\index.242defe3.css.map133092960555457848 0
 117C:\Users\owner\Desktop\PROJECT\120 DAYS OF CODE\Jubtube Project\Js\node_modules\css-tree\lib\syntax\pseudo\matches.js133088046495866428 0
 113C:\Users\owner\Desktop\PROJECT\120 DAYS OF CODE\Jubtube Project\Js\node_modules\css-tree\lib\syntax\pseudo\not.js133088046504996357 0
 167C:\Users\owner\Desktop\PROJECT\120 DAYS OF CODE\Jubtube Project\Js\node_modules\@parcel\core\test\fixtures\plugins\node_modules\parcel-transformer-bad-engines\index.js133088046491009547 0
@@ -2726,12 +2730,13 @@
 111C:\Users\owner\Desktop\PROJECT\120 DAYS OF CODE\Jubtube Project\Js\node_modules\caniuse-lite\data\regions\GI.js133088046721406503 0
 111C:\Users\owner\Desktop\PROJECT\120 DAYS OF CODE\Jubtube Project\Js\node_modules\caniuse-lite\data\regions\GN.js133088046721546375 0
 111C:\Users\owner\Desktop\PROJECT\120 DAYS OF CODE\Jubtube Project\Js\node_modules\caniuse-lite\data\regions\GP.js133088046721803363 0
-89C:\Users\owner\Desktop\PROJECT\120 DAYS OF CODE\Jubtube Project\Js\dist\index.561fface.js133092375737613296 0
+89C:\Users\owner\Desktop\PROJECT\120 DAYS OF CODE\Jubtube Project\Js\dist\index.561fface.js133092962165869267 0
 111C:\Users\owner\Desktop\PROJECT\120 DAYS OF CODE\Jubtube Project\Js\node_modules\caniuse-lite\data\regions\GR.js133088046721883341 0
 111C:\Users\owner\Desktop\PROJECT\120 DAYS OF CODE\Jubtube Project\Js\node_modules\caniuse-lite\data\regions\GT.js133088046721973267 0
 111C:\Users\owner\Desktop\PROJECT\120 DAYS OF CODE\Jubtube Project\Js\node_modules\caniuse-lite\data\regions\GU.js133088046722043411 0
 105C:\Users\owner\Desktop\PROJECT\120 DAYS OF CODE\Jubtube Project\Js\node_modules\@parcel\watcher\prebuilds133088046364476127 1
 111C:\Users\owner\Desktop\PROJECT\120 DAYS OF CODE\Jubtube Project\Js\node_modules\caniuse-lite\data\regions\GW.js133088046722618632 0
+94C:\Users\owner\Desktop\PROJECT\120 DAYS OF CODE\Jubtube Project\Js\dist\index.2cf94a5b.css.map133092975766376871 0
 158C:\Users\owner\Desktop\PROJECT\120 DAYS OF CODE\Jubtube Project\Js\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\package-fallback\index.js133088046291302272 0
 111C:\Users\owner\Desktop\PROJECT\120 DAYS OF CODE\Jubtube Project\Js\node_modules\caniuse-lite\data\regions\GY.js133088046722658594 0
 111C:\Users\owner\Desktop\PROJECT\120 DAYS OF CODE\Jubtube Project\Js\node_modules\caniuse-lite\data\regions\HK.js133088046723198287 0
@@ -2801,7 +2806,7 @@
 113C:\Users\owner\Desktop\PROJECT\120 DAYS OF CODE\Jubtube Project\Js\node_modules\caniuse-lite\data\features\av1.js133088046338552484 0
 111C:\Users\owner\Desktop\PROJECT\120 DAYS OF CODE\Jubtube Project\Js\node_modules\caniuse-lite\data\regions\NL.js133088046759472953 0
 111C:\Users\owner\Desktop\PROJECT\120 DAYS OF CODE\Jubtube Project\Js\node_modules\caniuse-lite\data\regions\NP.js133088046759642635 0
-90C:\Users\owner\Desktop\PROJECT\120 DAYS OF CODE\Jubtube Project\Js\dist\index.f20ff671.css133092369870035007 0
+90C:\Users\owner\Desktop\PROJECT\120 DAYS OF CODE\Jubtube Project\Js\dist\index.f20ff671.css133092960510224931 0
 111C:\Users\owner\Desktop\PROJECT\120 DAYS OF CODE\Jubtube Project\Js\node_modules\caniuse-lite\data\regions\NR.js133088046759662636 0
 111C:\Users\owner\Desktop\PROJECT\120 DAYS OF CODE\Jubtube Project\Js\node_modules\caniuse-lite\data\regions\PG.js133088046764357916 0
 111C:\Users\owner\Desktop\PROJECT\120 DAYS OF CODE\Jubtube Project\Js\node_modules\caniuse-lite\data\regions\PL.js133088046770968550 0
@@ -3099,7 +3104,7 @@
 113C:\Users\owner\Desktop\PROJECT\120 DAYS OF CODE\Jubtube Project\Js\node_modules\@parcel\reporter-cli\src\utils.js133088046098474752 0
 133C:\Users\owner\Desktop\PROJECT\120 DAYS OF CODE\Jubtube Project\Js\node_modules\caniuse-lite\data\features\intersectionobserver-v2.js133088046738419578 0
 116C:\Users\owner\Desktop\PROJECT\120 DAYS OF CODE\Jubtube Project\Js\node_modules\caniuse-lite\data\features\jpegxr.js133088046739202098 0
-93C:\Users\owner\Desktop\PROJECT\120 DAYS OF CODE\Jubtube Project\Js\dist\Docsldpi.a1bb0b69.svg133092369871086735 0
+93C:\Users\owner\Desktop\PROJECT\120 DAYS OF CODE\Jubtube Project\Js\dist\Docsldpi.a1bb0b69.svg133092960505966486 0
 124C:\Users\owner\Desktop\PROJECT\120 DAYS OF CODE\Jubtube Project\Js\node_modules\@jridgewell\gen-mapping\dist\gen-mapping.mjs133088045981410602 0
 114C:\Users\owner\Desktop\PROJECT\120 DAYS OF CODE\Jubtube Project\Js\node_modules\caniuse-lite\data\features\json.js133088046739292055 0
 138C:\Users\owner\Desktop\PROJECT\120 DAYS OF CODE\Jubtube Project\Js\node_modules\caniuse-lite\data\features\mdn-css-unicode-bidi-isolate.js133088046748051303 0
@@ -3956,7 +3961,7 @@
 109C:\Users\owner\Desktop\PROJECT\120 DAYS OF CODE\Jubtube Project\Js\node_modules\@parcel\fs\lib\browser.js.map133088046119994560 0
 103C:\Users\owner\Desktop\PROJECT\120 DAYS OF CODE\Jubtube Project\Js\node_modules\@parcel\fs\lib\index.js133088045929127710 0
 118C:\Users\owner\Desktop\PROJECT\120 DAYS OF CODE\Jubtube Project\Js\node_modules\@parcel\events\test\Disposable.test.js133088045855105698 0
-89C:\Users\owner\Desktop\PROJECT\120 DAYS OF CODE\Jubtube Project\Js\dist\index.3d1714a6.js133092369875898388 0
+89C:\Users\owner\Desktop\PROJECT\120 DAYS OF CODE\Jubtube Project\Js\dist\index.3d1714a6.js133092960510224931 0
 107C:\Users\owner\Desktop\PROJECT\120 DAYS OF CODE\Jubtube Project\Js\node_modules\@parcel\events\src\types.js133088046046907341 0
 112C:\Users\owner\Desktop\PROJECT\120 DAYS OF CODE\Jubtube Project\Js\node_modules\@parcel\events\lib\Disposable.js133088045511211457 0
 102C:\Users\owner\Desktop\PROJECT\120 DAYS OF CODE\Jubtube Project\Js\node_modules\@parcel\diagnostic\lib133088045946378624 1
@@ -4052,7 +4057,7 @@
 116C:\Users\owner\Desktop\PROJECT\120 DAYS OF CODE\Jubtube Project\Js\node_modules\@parcel\core\lib\summarizeRequest.js133088046577318156 0
 105C:\Users\owner\Desktop\PROJECT\120 DAYS OF CODE\Jubtube Project\Js\node_modules\@parcel\core\lib\types.js133088046589215563 0
 116C:\Users\owner\Desktop\PROJECT\120 DAYS OF CODE\Jubtube Project\Js\node_modules\@parcel\core\lib\UncommittedAsset.js133088046589818148 0
-96C:\Users\owner\Desktop\PROJECT\120 DAYS OF CODE\Jubtube Project\Js\dist\Popularldpi.d9f92af4.svg133092369871036860 0
+96C:\Users\owner\Desktop\PROJECT\120 DAYS OF CODE\Jubtube Project\Js\dist\Popularldpi.d9f92af4.svg133092960505966486 0
 126C:\Users\owner\Desktop\PROJECT\120 DAYS OF CODE\Jubtube Project\Js\node_modules\@parcel\core\lib\requests\AssetGraphRequest.js133088046232731348 0
 122C:\Users\owner\Desktop\PROJECT\120 DAYS OF CODE\Jubtube Project\Js\node_modules\@parcel\core\lib\requests\DevDepRequest.js133088046437686397 0
 121C:\Users\owner\Desktop\PROJECT\120 DAYS OF CODE\Jubtube Project\Js\node_modules\@parcel\core\lib\requests\EntryRequest.js133088046450356402 0
@@ -4108,7 +4113,7 @@
 110C:\Users\owner\Desktop\PROJECT\120 DAYS OF CODE\Jubtube Project\Js\node_modules\@lmdb\lmdb-win32-x64\README.md133088045709579168 0
 97C:\Users\owner\Desktop\PROJECT\120 DAYS OF CODE\Jubtube Project\Js\node_modules\@lezer\lr\LICENSE133088045398604141 0
 102C:\Users\owner\Desktop\PROJECT\120 DAYS OF CODE\Jubtube Project\Js\node_modules\@lezer\lr\package.json133088045907811829 0
-107C:\Users\owner\Desktop\PROJECT\120 DAYS OF CODE\Jubtube Project\Js\dist\whatsapp-business-icon.ae87fbf1.svg133092369871036860 0
+107C:\Users\owner\Desktop\PROJECT\120 DAYS OF CODE\Jubtube Project\Js\dist\whatsapp-business-icon.ae87fbf1.svg133092960505986471 0
 99C:\Users\owner\Desktop\PROJECT\120 DAYS OF CODE\Jubtube Project\Js\node_modules\@lezer\lr\README.md133088045951908674 0
 105C:\Users\owner\Desktop\PROJECT\120 DAYS OF CODE\Jubtube Project\Js\node_modules\@lezer\lr\dist\parse.d.ts133088046048891213 0
 105C:\Users\owner\Desktop\PROJECT\120 DAYS OF CODE\Jubtube Project\Js\node_modules\@lezer\lr\dist\token.d.ts133088046072329472 0
@@ -4214,44 +4219,47 @@
 93C:\Users\owner\Desktop\PROJECT\120 DAYS OF CODE\Jubtube Project\Js\node_modules\.bin\svgo.ps1133088046829714628 0
 91C:\Users\owner\Desktop\PROJECT\120 DAYS OF CODE\Jubtube Project\Js\node_modules\.bin\terser133088046829754613 0
 95C:\Users\owner\Desktop\PROJECT\120 DAYS OF CODE\Jubtube Project\Js\node_modules\.bin\terser.ps1133088046829754613 0
-93C:\Users\owner\Desktop\PROJECT\120 DAYS OF CODE\Jubtube Project\Js\dist\Devsldpi.a7b5d534.svg133092369871086735 0
+93C:\Users\owner\Desktop\PROJECT\120 DAYS OF CODE\Jubtube Project\Js\dist\Devsldpi.a7b5d534.svg133092960505976484 0
 78C:\Users\owner\Desktop\PROJECT\120 DAYS OF CODE\Jubtube Project\Js\dist\DI.svg133084904977517584 0
 93C:\Users\owner\Desktop\PROJECT\120 DAYS OF CODE\Jubtube Project\Js\dist\Docsldpi.4e0389e1.svg133092376981861524 0
-93C:\Users\owner\Desktop\PROJECT\120 DAYS OF CODE\Jubtube Project\Js\dist\Homeldpi.467f99c6.svg133092369871036860 0
+93C:\Users\owner\Desktop\PROJECT\120 DAYS OF CODE\Jubtube Project\Js\dist\Homeldpi.467f99c6.svg133092960505966486 0
 93C:\Users\owner\Desktop\PROJECT\120 DAYS OF CODE\Jubtube Project\Js\dist\Homeldpi.76e33d06.svg133092376981861524 0
 89C:\Users\owner\Desktop\PROJECT\120 DAYS OF CODE\Jubtube Project\Js\dist\index.159d4897.js133092376982362352 0
 93C:\Users\owner\Desktop\PROJECT\120 DAYS OF CODE\Jubtube Project\Js\dist\index.159d4897.js.map133092376986202294 0
-89C:\Users\owner\Desktop\PROJECT\120 DAYS OF CODE\Jubtube Project\Js\dist\index.16bf88aa.js133092369883567125 0
-93C:\Users\owner\Desktop\PROJECT\120 DAYS OF CODE\Jubtube Project\Js\dist\index.16bf88aa.js.map133092369887024944 0
+89C:\Users\owner\Desktop\PROJECT\120 DAYS OF CODE\Jubtube Project\Js\dist\index.16bf88aa.js133092960510224931 0
+93C:\Users\owner\Desktop\PROJECT\120 DAYS OF CODE\Jubtube Project\Js\dist\index.16bf88aa.js.map133092960555457848 0
 90C:\Users\owner\Desktop\PROJECT\120 DAYS OF CODE\Jubtube Project\Js\dist\index.1e872322.css133092376981861524 0
 94C:\Users\owner\Desktop\PROJECT\120 DAYS OF CODE\Jubtube Project\Js\dist\index.1e872322.css.map133092376985700354 0
-90C:\Users\owner\Desktop\PROJECT\120 DAYS OF CODE\Jubtube Project\Js\dist\index.242defe3.css133092369870014656 0
-90C:\Users\owner\Desktop\PROJECT\120 DAYS OF CODE\Jubtube Project\Js\dist\index.2edb0415.css133092369870014656 0
-93C:\Users\owner\Desktop\PROJECT\120 DAYS OF CODE\Jubtube Project\Js\dist\index.3d1714a6.js.map133092369886874954 0
+90C:\Users\owner\Desktop\PROJECT\120 DAYS OF CODE\Jubtube Project\Js\dist\index.242defe3.css133092960510214990 0
+90C:\Users\owner\Desktop\PROJECT\120 DAYS OF CODE\Jubtube Project\Js\dist\index.2edb0415.css133092960510214990 0
+93C:\Users\owner\Desktop\PROJECT\120 DAYS OF CODE\Jubtube Project\Js\dist\index.3d1714a6.js.map133092960555547787 0
 93C:\Users\owner\Desktop\PROJECT\120 DAYS OF CODE\Jubtube Project\Js\dist\index.3dc519ca.js.map133092376986703650 0
 89C:\Users\owner\Desktop\PROJECT\120 DAYS OF CODE\Jubtube Project\Js\dist\index.53b34433.js133092376982312352 0
 93C:\Users\owner\Desktop\PROJECT\120 DAYS OF CODE\Jubtube Project\Js\dist\index.53b34433.js.map133092376986773767 0
-93C:\Users\owner\Desktop\PROJECT\120 DAYS OF CODE\Jubtube Project\Js\dist\index.561fface.js.map133092375738213257 0
+93C:\Users\owner\Desktop\PROJECT\120 DAYS OF CODE\Jubtube Project\Js\dist\index.561fface.js.map133092962166169084 0
 94C:\Users\owner\Desktop\PROJECT\120 DAYS OF CODE\Jubtube Project\Js\dist\index.5d730194.css.map133092376985700354 0
-90C:\Users\owner\Desktop\PROJECT\120 DAYS OF CODE\Jubtube Project\Js\dist\index.72ac0a8c.css133092369870014656 0
-94C:\Users\owner\Desktop\PROJECT\120 DAYS OF CODE\Jubtube Project\Js\dist\index.72ac0a8c.css.map133092369886874954 0
-90C:\Users\owner\Desktop\PROJECT\120 DAYS OF CODE\Jubtube Project\Js\dist\index.774b5478.css133092369870014656 0
-94C:\Users\owner\Desktop\PROJECT\120 DAYS OF CODE\Jubtube Project\Js\dist\index.774b5478.css.map133092369886874954 0
+90C:\Users\owner\Desktop\PROJECT\120 DAYS OF CODE\Jubtube Project\Js\dist\index.72ac0a8c.css133092960573169640 0
+94C:\Users\owner\Desktop\PROJECT\120 DAYS OF CODE\Jubtube Project\Js\dist\index.72ac0a8c.css.map133092960573302182 0
+90C:\Users\owner\Desktop\PROJECT\120 DAYS OF CODE\Jubtube Project\Js\dist\index.774b5478.css133092960510224931 0
+94C:\Users\owner\Desktop\PROJECT\120 DAYS OF CODE\Jubtube Project\Js\dist\index.774b5478.css.map133092960555457848 0
 94C:\Users\owner\Desktop\PROJECT\120 DAYS OF CODE\Jubtube Project\Js\dist\index.9413e162.css.map133092376985820463 0
 90C:\Users\owner\Desktop\PROJECT\120 DAYS OF CODE\Jubtube Project\Js\dist\index.986737ec.css133092376981962243 0
 93C:\Users\owner\Desktop\PROJECT\120 DAYS OF CODE\Jubtube Project\Js\dist\index.9c54dff0.js.map133092376985820463 0
-89C:\Users\owner\Desktop\PROJECT\120 DAYS OF CODE\Jubtube Project\Js\dist\index.bc69a49a.js133092369875898388 0
+89C:\Users\owner\Desktop\PROJECT\120 DAYS OF CODE\Jubtube Project\Js\dist\index.bc69a49a.js133092960510224931 0
+90C:\Users\owner\Desktop\PROJECT\120 DAYS OF CODE\Jubtube Project\Js\dist\index.d02192e4.css133092977009236096 0
+94C:\Users\owner\Desktop\PROJECT\120 DAYS OF CODE\Jubtube Project\Js\dist\index.d02192e4.css.map133092977009765689 0
 94C:\Users\owner\Desktop\PROJECT\120 DAYS OF CODE\Jubtube Project\Js\dist\index.eb283555.css.map133092376986703650 0
-94C:\Users\owner\Desktop\PROJECT\120 DAYS OF CODE\Jubtube Project\Js\dist\index.f20ff671.css.map133092369887024944 0
-101C:\Users\owner\Desktop\PROJECT\120 DAYS OF CODE\Jubtube Project\Js\dist\Jubtube logoldpi.be5efadd.svg133092369871036860 0
-95C:\Users\owner\Desktop\PROJECT\120 DAYS OF CODE\Jubtube Project\Js\dist\Latestldpi.6676a59b.svg133092369871036860 0
+94C:\Users\owner\Desktop\PROJECT\120 DAYS OF CODE\Jubtube Project\Js\dist\index.f20ff671.css.map133092960555557766 0
+101C:\Users\owner\Desktop\PROJECT\120 DAYS OF CODE\Jubtube Project\Js\dist\Jubtube logoldpi.be5efadd.svg133092960505976484 0
+95C:\Users\owner\Desktop\PROJECT\120 DAYS OF CODE\Jubtube Project\Js\dist\Latestldpi.6676a59b.svg133092960505976484 0
 89C:\Users\owner\Desktop\PROJECT\120 DAYS OF CODE\Jubtube Project\Js\dist\menu.10969481.svg133092376981861524 0
-89C:\Users\owner\Desktop\PROJECT\120 DAYS OF CODE\Jubtube Project\Js\dist\menu.56fec36d.svg133092369871186717 0
+89C:\Users\owner\Desktop\PROJECT\120 DAYS OF CODE\Jubtube Project\Js\dist\menu.56fec36d.svg133092960505986471 0
 96C:\Users\owner\Desktop\PROJECT\120 DAYS OF CODE\Jubtube Project\Js\dist\Popularldpi.c56d9fe4.svg133092376981861524 0
-93C:\Users\owner\Desktop\PROJECT\120 DAYS OF CODE\Jubtube Project\Js\dist\rejected.b4f30640.png133092369888558831 0
+93C:\Users\owner\Desktop\PROJECT\120 DAYS OF CODE\Jubtube Project\Js\dist\rejected.b4f30640.png133092960429281630 0
 93C:\Users\owner\Desktop\PROJECT\120 DAYS OF CODE\Jubtube Project\Js\dist\rejected.edd92324.png133092376974499654 0
 78C:\Users\owner\Desktop\PROJECT\120 DAYS OF CODE\Jubtube Project\Js\dist\st.svg133087868848728270 0
-101C:\Users\owner\Desktop\PROJECT\120 DAYS OF CODE\Jubtube Project\Js\dist\twitter-app-icon.5cdf6882.svg133092369871186717 0
+101C:\Users\owner\Desktop\PROJECT\120 DAYS OF CODE\Jubtube Project\Js\dist\twitter-app-icon.5cdf6882.svg133092960505986471 0
 78C:\Users\owner\Desktop\PROJECT\120 DAYS OF CODE\Jubtube Project\Js\dist\UI.svg133084905613101465 0
 107C:\Users\owner\Desktop\PROJECT\120 DAYS OF CODE\Jubtube Project\Js\dist\whatsapp-business-icon.99577d8f.svg133092376981861524 0
 78C:\Users\owner\Desktop\PROJECT\120 DAYS OF CODE\Jubtube Project\Js\dist\YU.svg133087870177466371 0
+93C:\Users\owner\Desktop\PROJECT\120 DAYS OF CODE\Jubtube Project\Js\dist\.vscode\settings.json133092377826517457 0
